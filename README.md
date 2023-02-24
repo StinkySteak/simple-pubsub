@@ -1,4 +1,3 @@
-
 # Simple PubSub
 
 A small Unity Framework for Sending & Receiving Message through Signal without concrete implementation needed
@@ -36,3 +35,8 @@ public class PlayerHealth : MonoBehaviour
     }
 }
 ```
+
+# Core Structure
+
+`SignalManager`: Handles for Publishing & Subscribing Signals
+`Subscription` : Relation between Listener and Signal Type
